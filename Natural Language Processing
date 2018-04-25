@@ -1,0 +1,22 @@
+in NLP two basic concepts are important
+1. Bag of words
+2. n-grams
+
+
+Bag of words = its like creating a vocablary list of all the words present in the sentence.
+then one hot kind of encoding is used to verify the presence of a word in a new senstence.
+this method does not account for the frequency of word occurance.
+
+n-gram is a kind of conditional probability method in words. like if its food what is more likely to occue. 2-gram means that bi variable probability is considered. for 3 grams a combination of 3 words is considered and so on. this improves the precession but adds complexity to the model.
+
+
+LDA= latent dirichellet allocation
+documents is any text containing stuff. it can be anything paragrph, etc
+topics are like normal day topic example food, family
+so LDA is finding the percentage of topics over the document. it is a generative upsupervised model.
+Multiple or mixed models are discoved.
+so LDA does
+1. discovers the topic
+2. learns the topic
+LDA workds iteratively
+
